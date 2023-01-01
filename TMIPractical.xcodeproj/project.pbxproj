@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,23 @@
 		722CC03B29600B3C0087CC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722CC03929600B3C0087CC50 /* Main.storyboard */; };
 		722CC03D29600B3E0087CC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722CC03C29600B3E0087CC50 /* Assets.xcassets */; };
 		722CC04029600B3E0087CC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722CC03E29600B3E0087CC50 /* LaunchScreen.storyboard */; };
+		722CC05129600F3A0087CC50 /* MVCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CC04929600F390087CC50 /* MVCServer.swift */; };
+		722CC059296010A10087CC50 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CC058296010A10087CC50 /* Utility.swift */; };
+		722CC06329603C870087CC50 /* categoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CC05D29603C870087CC50 /* categoryModel.swift */; };
+		722CC06529603C870087CC50 /* questionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CC05F29603C870087CC50 /* questionModel.swift */; };
+		72330C3A29609136000477F6 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72330C3929609136000477F6 /* QuizVC.swift */; };
+		72330C3D2960918F000477F6 /* quizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72330C3C2960918F000477F6 /* quizCell.swift */; };
+		7268A57F29617157006DD8D2 /* DBquiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7268A57D29617157006DD8D2 /* DBquiz.xcdatamodeld */; };
+		7268A5812961871E006DD8D2 /* ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268A5802961871E006DD8D2 /* ScoreVC.swift */; };
+		727ACAB6296066B10099C7C8 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727ACAB5296066B10099C7C8 /* BorderView.swift */; };
+		727B076B296156F600D431FC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B076A296156F600D431FC /* Extensions.swift */; };
+		A9A8999F714A174814CAD021 /* Pods_TMIPractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7FB8BC8997AFA6E614CBD7 /* Pods_TMIPractical.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06C4AAC73ED917617FF93322 /* Pods-TMIPractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMIPractical.debug.xcconfig"; path = "Target Support Files/Pods-TMIPractical/Pods-TMIPractical.debug.xcconfig"; sourceTree = "<group>"; };
+		4B7FB8BC8997AFA6E614CBD7 /* Pods_TMIPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMIPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A222D29E1BEAED5F0060BD /* Pods-TMIPractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMIPractical.release.xcconfig"; path = "Target Support Files/Pods-TMIPractical/Pods-TMIPractical.release.xcconfig"; sourceTree = "<group>"; };
 		722CC03029600B3C0087CC50 /* TMIPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMIPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722CC03329600B3C0087CC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		722CC03529600B3C0087CC50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		722CC03C29600B3E0087CC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		722CC03F29600B3E0087CC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		722CC04129600B3E0087CC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722CC04929600F390087CC50 /* MVCServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVCServer.swift; sourceTree = "<group>"; };
+		722CC058296010A10087CC50 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		722CC05D29603C870087CC50 /* categoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryModel.swift; sourceTree = "<group>"; };
+		722CC05F29603C870087CC50 /* questionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionModel.swift; sourceTree = "<group>"; };
+		72330C3929609136000477F6 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		72330C3C2960918F000477F6 /* quizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizCell.swift; sourceTree = "<group>"; };
+		7268A57E29617157006DD8D2 /* DBquiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBquiz.xcdatamodel; sourceTree = "<group>"; };
+		7268A5802961871E006DD8D2 /* ScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreVC.swift; sourceTree = "<group>"; };
+		727ACAB5296066B10099C7C8 /* BorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		727B076A296156F600D431FC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A8999F714A174814CAD021 /* Pods_TMIPractical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D97157CB07B64D4C213F791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06C4AAC73ED917617FF93322 /* Pods-TMIPractical.debug.xcconfig */,
+				51A222D29E1BEAED5F0060BD /* Pods-TMIPractical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		722CC02729600B3C0087CC50 = {
 			isa = PBXGroup;
 			children = (
+				7268A57D29617157006DD8D2 /* DBquiz.xcdatamodeld */,
+				722CC05A29603C870087CC50 /* Model */,
+				72330C3B29609156000477F6 /* Custom Cell */,
+				722CC04729600F390087CC50 /* Library */,
 				722CC03229600B3C0087CC50 /* TMIPractical */,
 				722CC03129600B3C0087CC50 /* Products */,
+				6D97157CB07B64D4C213F791 /* Pods */,
+				B4B3C4232DCDA6A07DF4ABE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +99,50 @@
 				722CC03329600B3C0087CC50 /* AppDelegate.swift */,
 				722CC03529600B3C0087CC50 /* SceneDelegate.swift */,
 				722CC03729600B3C0087CC50 /* ViewController.swift */,
+				72330C3929609136000477F6 /* QuizVC.swift */,
+				7268A5802961871E006DD8D2 /* ScoreVC.swift */,
 				722CC03929600B3C0087CC50 /* Main.storyboard */,
 				722CC03C29600B3E0087CC50 /* Assets.xcassets */,
 				722CC03E29600B3E0087CC50 /* LaunchScreen.storyboard */,
 				722CC04129600B3E0087CC50 /* Info.plist */,
 			);
 			path = TMIPractical;
+			sourceTree = "<group>";
+		};
+		722CC04729600F390087CC50 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				727B076A296156F600D431FC /* Extensions.swift */,
+				722CC04929600F390087CC50 /* MVCServer.swift */,
+				722CC058296010A10087CC50 /* Utility.swift */,
+				727ACAB5296066B10099C7C8 /* BorderView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		722CC05A29603C870087CC50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				722CC05D29603C870087CC50 /* categoryModel.swift */,
+				722CC05F29603C870087CC50 /* questionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72330C3B29609156000477F6 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72330C3C2960918F000477F6 /* quizCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		B4B3C4232DCDA6A07DF4ABE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FB8BC8997AFA6E614CBD7 /* Pods_TMIPractical.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722CC04429600B3E0087CC50 /* Build configuration list for PBXNativeTarget "TMIPractical" */;
 			buildPhases = (
+				34DF0800095F9D05B4346CE4 /* [CP] Check Pods Manifest.lock */,
 				722CC02C29600B3C0087CC50 /* Sources */,
 				722CC02D29600B3C0087CC50 /* Frameworks */,
 				722CC02E29600B3C0087CC50 /* Resources */,
+				7D1C2C499BBE2C8E8ADF59D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +183,7 @@
 				};
 			};
 			buildConfigurationList = 722CC02B29600B3C0087CC50 /* Build configuration list for PBXProject "TMIPractical" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,13 +213,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34DF0800095F9D05B4346CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMIPractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1C2C499BBE2C8E8ADF59D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMIPractical/Pods-TMIPractical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMIPractical/Pods-TMIPractical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMIPractical/Pods-TMIPractical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		722CC02C29600B3C0087CC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722CC06329603C870087CC50 /* categoryModel.swift in Sources */,
+				722CC05129600F3A0087CC50 /* MVCServer.swift in Sources */,
+				722CC06529603C870087CC50 /* questionModel.swift in Sources */,
 				722CC03829600B3C0087CC50 /* ViewController.swift in Sources */,
+				72330C3A29609136000477F6 /* QuizVC.swift in Sources */,
+				7268A5812961871E006DD8D2 /* ScoreVC.swift in Sources */,
+				722CC059296010A10087CC50 /* Utility.swift in Sources */,
+				7268A57F29617157006DD8D2 /* DBquiz.xcdatamodeld in Sources */,
 				722CC03429600B3C0087CC50 /* AppDelegate.swift in Sources */,
+				727ACAB6296066B10099C7C8 /* BorderView.swift in Sources */,
+				72330C3D2960918F000477F6 /* quizCell.swift in Sources */,
+				727B076B296156F600D431FC /* Extensions.swift in Sources */,
 				722CC03629600B3C0087CC50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +414,7 @@
 		};
 		722CC04529600B3E0087CC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C4AAC73ED917617FF93322 /* Pods-TMIPractical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,8 +425,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +441,7 @@
 		};
 		722CC04629600B3E0087CC50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A222D29E1BEAED5F0060BD /* Pods-TMIPractical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,8 +452,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +488,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7268A57D29617157006DD8D2 /* DBquiz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7268A57E29617157006DD8D2 /* DBquiz.xcdatamodel */,
+			);
+			currentVersion = 7268A57E29617157006DD8D2 /* DBquiz.xcdatamodel */;
+			path = DBquiz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 722CC02829600B3C0087CC50 /* Project object */;
 }
