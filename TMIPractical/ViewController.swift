@@ -82,7 +82,7 @@ class ViewController: UIViewController {
         
         if txtType.text != "Any Type"
         {
-            let param = self.txtType.text == "multiple" ? "" : "boolean"
+            let param = self.txtType.text == "Multiple Choice" ? "multiple" : "boolean"
             BaseUrl = BaseUrl + "&type=\(param)"
         }
         self.getQuestions(BaseUrl: BaseUrl)
